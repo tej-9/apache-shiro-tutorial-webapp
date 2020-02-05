@@ -96,5 +96,20 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Naveen Nexus Repository</name>
+	      <url>http://172.20.10.10:8081/nexus/content/repositories/nexus/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Naveen Nexus Repository</name>
+	      <url>http://172.20.10.10:8081/nexus/content/repositories/nexus-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 </project>
